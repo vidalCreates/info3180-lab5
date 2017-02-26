@@ -11,8 +11,6 @@ from flask_login import login_user, logout_user, current_user, login_required
 from forms import LoginForm
 from models import UserProfile
 
-login_manager.login_view = "login"
-login_manager.login_message = "NB: Restricted access. Please login to access this page."
 
 ###
 # Routing for your application.
